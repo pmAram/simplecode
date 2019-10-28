@@ -1,2 +1,2 @@
 <?php
-echo "Lint Test Success"
+echo "Lint Test Success!"
