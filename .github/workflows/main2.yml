@@ -1,0 +1,19 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    env:
+      TEST2: "2"
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: export TEST=0
+    - name: Run a multi-line script
+      run: |
+        echo $TEST
+        echo T2
+        echo $TEST2
