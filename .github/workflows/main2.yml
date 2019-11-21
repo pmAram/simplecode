@@ -2,19 +2,23 @@
 name: CI
 on: 
   push:
-    tags:
-    - 'ios*'
-    - '*-Production'
-    - '*-Stageing'
+    tags: 
+      - ios-tag9
+
+
+#on: 
+#  push:
+#    tags:
+#    - 'ios*'
+#    - '*-Production'
+#    - '*-Stageing'
 #      - ios*
 #    - '*-Production'
 #    - '*-Stageing'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - name: Run a one-line script
       run: echo Hello, world!
