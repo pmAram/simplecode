@@ -2,8 +2,8 @@
 name: CI
 on:
   create: 
-    - tags: 
-    - 'ios*'
+    tags: 
+      - 'ios*'
 
 
 #on: 
