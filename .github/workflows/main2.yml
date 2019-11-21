@@ -3,7 +3,7 @@ name: CI
 on:
   create: 
     - tags: 
-    - 'ios-tag9'
+    - 'ios*'
 
 
 #on: 
