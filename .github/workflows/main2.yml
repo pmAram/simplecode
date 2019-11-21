@@ -1,8 +1,12 @@
 
 name: CI
 
-on: 
-   create: [tag]
+on:
+   create: 
+    tags:
+    - 'ios*'
+#    - '*-Production'
+#    - '*-Stageing'
 
 jobs:
   build:
