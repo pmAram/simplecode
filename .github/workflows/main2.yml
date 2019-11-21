@@ -1,9 +1,11 @@
 
 name: CI
-on:
+on: 
   push:
     tags:
-      - '*'
+    - 'ios*'
+    - '*-Production'
+    - '*-Stageing'
 #      - ios*
 #    - '*-Production'
 #    - '*-Stageing'
