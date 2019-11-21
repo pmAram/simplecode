@@ -2,8 +2,10 @@
 name: CI
 on:
   push:
-    tags: 
-      - 'ios*'
+    branches:
+      - master
+    tags:
+      - ios*
 #    - '*-Production'
 #    - '*-Stageing'
 
